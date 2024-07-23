@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=-1,b=1,temp;
+    let sum = 0;
+    debugger;
+    for (let i = 0; i < 20 ; i++) {
+        temp = a+b;
+        a=b;
+        b=temp;
+        document.write(temp + "<br>");
+        sum = sum + temp;
+    }
+    document.write("Tong 20 so dau tien la: " +sum);
+</script>
+</body>
+</html>

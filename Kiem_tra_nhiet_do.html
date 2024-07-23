@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem tra nhiet do</title>
+</head>
+<body>
+<!--Nếu nhiệt độ nhập vào trên 100, yêu cầu người dùng giảm nhiệt độ. Nếu nhiệt độ dưới 20, yêu cầu người dùng tăng nhiệt độ.-->
+<script>
+    var nhietDo = +prompt("Nhap nhiet do");
+    while (nhietDo > 100 || nhietDo < 20) {
+        if (nhietDo > 100) {
+           alert("Giam nhiet do");
+        }
+        if (nhietDo < 20) {
+           alert("Tang nhiet do");
+        }
+         nhietDo = +prompt("Nhap nhiet do");
+    }
+</script>
+</body>
+</html>
